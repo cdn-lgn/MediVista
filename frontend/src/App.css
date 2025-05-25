@@ -1,0 +1,41 @@
+.flex-settings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  width: 100vw;
+  height: 70dvh;
+  background: linear-gradient(to right, #006400, #98FB98);
+}
+
+@media (max-width: 600px) {
+  .hero-section-intro {
+    flex-direction: column; /* Stack content vertically on mobile */
+    justify-content: center; /* Center content on mobile */
+  }
+}
+
+.closure-section {
+  padding: 80px 20px;
+  background: linear-gradient(rgba(69, 160, 73, 0.1), rgba(69, 160, 73, 0.05));
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closure-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
+/* Remove all carousel related CSS classes as we'll use styled components in React */
