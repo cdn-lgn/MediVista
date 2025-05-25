@@ -13,8 +13,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const allowedOrigins = [
-  process.env.URL_ONE,
-  process.env.URL_TWO,
+  process.env.FRONTEND_URL,
   "http://localhost:5173"
 ];
 
